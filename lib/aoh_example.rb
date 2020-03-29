@@ -15,9 +15,9 @@ def assembled_aoh
      { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
   
-  || 
   
-  infinite_jest_characters = [DON_G, JOELLE_VD, PAT_M, KATE_G. BRUCE_G]
+ ## Or -> infinite_jest_characters = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G] ? 
+  
 end
 
 #-----------------------------------------------------------------------------------------
@@ -30,7 +30,9 @@ def literal_aoh
      { name:  "Kate Gompert", occupation: "None" },
      { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
-   # Should this be sorted? In the spec it says "'the literal_aoh method returns an AoH made made from a literal with sorted elements'" but the results are not sorted. Is this a mistake? 
+   
+   # Or infinite_jest_characters = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G].sort ?
+   # Should this be sorted? In the spec file it says "'the literal_aoh method returns an AoH made made from a literal with sorted elements'" but the results are not sorted. Is this a mistake? 
   
   # COURSE NOTES
   # Using Array literal syntax only, build a nested array that uses the data in
@@ -40,6 +42,7 @@ end
 #-----------------------------------------------------------------------------------------
 
 def aoh_lookup(aoh, row, key)
+  
 end
 
 def aoh_update(aoh, row, key, new_value)
